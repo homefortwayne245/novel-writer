@@ -1,0 +1,5 @@
+# novel-writer bundle patch.
+# 让 `dsh plugin add` 能安装本插件：把插件行插入所选 profile 的 cordis 配置。
+- insert:
+    - id: novel-writer
+      name: novel-writer
