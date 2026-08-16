@@ -8,6 +8,7 @@
     ".": "./lib/index.js",
     "./package.json": "./package.json"
   },
+  "keywords": ["deepseek-harness", "dsh", "agent-preset", "novel-writing", "ai-writing", "chinese-novel"],
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
