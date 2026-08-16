@@ -106,3 +106,5 @@ File operations still respect DSH's own sandbox policy; the preset does not bypa
 ## License
 
 [MIT](./LICENSE)
+
+⭐ If this preset helps you, a star would be much appreciated!
