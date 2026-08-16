@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Fallback manual installer (prefer: dsh plugin --profile web add github:sailoumili/novel-writer)
 # ============================================================
 # 小说创作 · 六角色协同 —— 一键安装脚本（macOS / Linux）
 # 用于 DeepSeek Harness（DSH）
