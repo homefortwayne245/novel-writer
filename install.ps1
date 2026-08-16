@@ -1,3 +1,4 @@
+# 手动安装备用脚本（推荐用：dsh plugin --profile web add github:sailoumili/novel-writer）
 # ============================================================
 # 小说创作 · 六角色协同 —— 一键安装脚本（Windows）
 # 用于 DeepSeek Harness（DSH）
