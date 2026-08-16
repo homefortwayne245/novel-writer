@@ -21,9 +21,23 @@
 
 ## 安装方法
 
-预设的「文件夹名」就是它的 id，只能用**小写字母、数字和连字符**（`novel-writer`），不能用中文；显示出来的名字是「小说创作 · 六角色协同」。
+这是一个 **DSH 预设插件**：装好后，插件会把「小说创作 · 六角色协同」这个预设**自动注册进 DSH**，新建会话时直接选它就行。（预设 id 是 `novel-writer`——小写字母、数字和连字符；显示名是「小说创作 · 六角色协同」。）
 
-### 方法一：一键安装（推荐）
+### 方法一：插件安装（推荐）
+
+在 DSH 命令行里执行下面这一行即可（Windows / macOS / Linux 通用）：
+
+```
+dsh plugin --profile web add github:sailoumili/novel-writer
+```
+
+装完后，**重启或刷新 DSH web**，新建会话时选「小说创作 · 六角色协同」即可。
+
+### 方法二：手动安装（备选）
+
+不想用命令行的话，也可以手动装：
+
+#### 一键脚本
 
 Windows（PowerShell）：复制下面这一整行，粘贴回车，自动下载安装。
 
@@ -39,7 +53,7 @@ curl -fsSL https://raw.githubusercontent.com/sailoumili/novel-writer/main/instal
 
 装完后，**刷新或重启 DSH 页面**，新建会话时选「小说创作 · 六角色协同」即可。
 
-### 方法二：手动下载
+#### 手动下载
 
 1. 点本仓库绿色 `Code` 按钮 → `Download ZIP`，下载并解压。
 2. 把解压出来的文件夹**改名为 `novel-writer`**（GitHub 下载的文件夹名通常带 `-main` 后缀，要去掉）。

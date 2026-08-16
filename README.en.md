@@ -21,9 +21,23 @@ When it switches roles, it marks the speaker with a header like `【Agent 1 · C
 
 ## Installation
 
-The preset's "folder name" is its id — only **lowercase letters, digits, and hyphens** (`novel-writer`); the display name is "小说创作 · 六角色协同".
+This is a **DSH preset plugin**: once installed, it automatically registers the "小说创作 · 六角色协同" preset with DSH, so you can simply pick it when starting a new session. (The preset id is `novel-writer` — lowercase letters, digits, and hyphens; the display name is "小说创作 · 六角色协同".)
 
-### Option 1: One-line install (recommended)
+### Option 1: Install as a plugin (recommended)
+
+Run this single command in your DSH terminal (works on Windows / macOS / Linux):
+
+```
+dsh plugin --profile web add github:sailoumili/novel-writer
+```
+
+After installing, **restart or refresh DSH web**, then pick "小说创作 · 六角色协同" when starting a new session.
+
+### Option 2: Manual install (fallback)
+
+Prefer not to use the command line? You can also install manually:
+
+#### One-line script
 
 Windows (PowerShell) — copy and paste this single line:
 
@@ -39,7 +53,7 @@ curl -fsSL https://raw.githubusercontent.com/sailoumili/novel-writer/main/instal
 
 After installing, **refresh or restart the DSH page**, then pick "小说创作 · 六角色协同" when starting a new session.
 
-### Option 2: Manual download
+#### Manual download
 
 1. Click the green `Code` button → `Download ZIP`, then unzip.
 2. Rename the extracted folder to `novel-writer` (GitHub's zip folder usually has a `-main` suffix — remove it).
